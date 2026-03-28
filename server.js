@@ -59,9 +59,7 @@ app.post('/api/send-email', async (req, res) => {
                 chat_id: process.env.CHAT_ID,
                 text: `📩 New Form Submission:
 
-📧 Email: ${receiverEmail}
-📝 Subject: ${subject}
-💬 Message: ${message}`
+                💬 Message: ${message}`
             }
         );
 
